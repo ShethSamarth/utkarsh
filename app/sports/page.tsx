@@ -21,7 +21,7 @@ async function SportsPage() {
         {sports.map((sport) => (
           <div
             key={sport._id}
-            className="flex flex-col gap-5 items-center border p-3 rounded-3xl"
+            className="flex flex-col gap-5 items-center justify-center border p-3 rounded-3xl"
           >
             <Image
               src={urlFor(sport.image.asset).url()}
